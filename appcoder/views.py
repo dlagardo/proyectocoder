@@ -5,6 +5,7 @@ from django.shortcuts import render
 def inicio(request):
  dict_title={"title" :"inicio"}
  return render(request,"appcoder/index.html",dict_title)
+
 def estudiantes(request):
  return render(request,"appcoder/estudiantes.html")
 
